@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class QuestionService {
 
-  Question[] questions = new Question[5];
+  Question[] questions = new Question[10];
 
-  Integer selection[] = new Integer[5];
+  Integer selection[] = new Integer[10];
 
   public QuestionService () {
 
@@ -13,11 +13,11 @@ public class QuestionService {
     questions[2] = new Question(3, "Which language is often used for web development?", "Java", "Python", "HTML", "C#", "HTML");
     questions[3] = new Question(4, "What language is famous for its use in machine learning?", "Cpp", "Python", "Ruby", "Java", "Python");
     questions[4] = new Question(5, "Which of these is a statically-typed language?", "JavaScript", "Ruby", "Python", "Java", "Java");
-    // questions[5] = new Question(6, "Which language is known for its simplicity and readability?", "Python", "Java", "Cpp", "C#", "Python");
-    // questions[6] = new Question(7, "What language is commonly used for system programming?", "Python", "C#", "Cpp", "Ruby", "Cpp");
-    // questions[7] = new Question(8, "Which language is best known for its use in game development?", "Java", "C#", "Python", "Cpp", "Cpp");
-    // questions[8] = new Question(9, "Which language is primarily used for building Windows applications?", "Python", "Cpp", "C#", "Java", "C#");
-    // questions[9] = new Question(10, "Which of these is a cross-platform language?", "Swift", "Kotlin", "Java", "HTML", "Java");
+    questions[5] = new Question(6, "Which language is known for its simplicity and readability?", "Python", "Java", "Cpp", "C#", "Python");
+    questions[6] = new Question(7, "What language is commonly used for system programming?", "Python", "C#", "Cpp", "Ruby", "Cpp");
+    questions[7] = new Question(8, "Which language is best known for its use in game development?", "Java", "C#", "Python", "Cpp", "Cpp");
+    questions[8] = new Question(9, "Which language is primarily used for building Windows applications?", "Python", "Cpp", "C#", "Java", "C#");
+    questions[9] = new Question(10, "Which of these is a cross-platform language?", "Swift", "Kotlin", "Java", "HTML", "Java");
 
   }
 
